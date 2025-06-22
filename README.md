@@ -23,21 +23,21 @@ Not: Modeli manuel olarak indirip kurmanıza gerek yoktur. llama.cpp, sunucuyu i
 
 ### Kurulum Adımları
 
-- llama-server'ı başlatın: 
+- llama-server'ı başlatın ve uygun duruma göre gerekli komutu kullanın:
 
-    Terminalde llama.cpp klasörüne (veya llama-server yürütülebilir dosyasının bulunduğu yere) gidin ve şu komutu çalıştırın:
+    Durum 1: Terminalde llama.cpp klasörüne (veya llama-server yürütülebilir dosyasının bulunduğu yere) gidin ve şu komutu çalıştırın:
 
     ```bash
     ./llama-server -hf ggml-org/SmolVLM-500M-Instruct-GGUF
     ```
 
-    Eğer bir NVIDIA, AMD veya Intel GPU’ya sahipseniz, GPU hızlandırmayı aktif hale getirmek için -ngl 99 bayrağını ekleyebilirsiniz. Bu, modelin katmanlarının büyük bir kısmını GPU’ya yönlendirerek performansı iyileştirir.
+    Durum 2: Eğer bir NVIDIA, AMD veya Intel GPU’ya sahipseniz, GPU hızlandırmayı aktif hale getirmek için -ngl 99 bayrağını ekleyebilirsiniz. Bu, modelin katmanlarının büyük bir kısmını GPU’ya yönlendirerek performansı iyileştirir.
 
     ```bash
     ./llama-server -hf ggml-org/SmolVLM-500M-Instruct-GGUF -ngl 99
     ```
 
-    Windows kullanıcıları için:
+    Durum 3: Windows kullanıcıları için:
     ```bash
     llama-server.exe -hf ggml-org/SmolVLM-500M-Instruct-GGUF -ngl 99
     ```
