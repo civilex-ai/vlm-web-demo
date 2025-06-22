@@ -46,7 +46,7 @@ Not: Modeli manuel olarak indirip kurmanıza gerek yoktur. llama.cpp, sunucuyu i
 
 - Web Arayüzünü Açın:
 
-    llama-server çalıştıktan sonra, index.html dosyasını açın.
+    llama-server hatasız bir şekilde çalıştıktan sonra komut penceresini kapatmadan index.html dosyasını açın.
 
 * "Başlat"a tıklayın ve VLM modelleriyle etkileşimin tadını çıkarın!
 
