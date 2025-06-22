@@ -17,7 +17,7 @@ Neden llama.cpp? SmolVLM-500M-Instruct modelini çalıştırmak için llama.cpp�
 
 llama.cpp kullanarak SmolVLM-500M-Instruct modelini çalıştırmak için gereksinimler:
 
-- llama.cpp kurulmuş olmalı: llama.cpp’in derlenmiş ve kullanıma hazır olduğundan emin olun. Bu rehber, llama.cpp’in kurulum sürecini kapsamamaktadır.
+- llama.cpp kurulmuş olmalı: llama.cpp’in derlenmiş ve kullanıma hazır olduğundan emin olun. Eğer Windows üzerinde llama.cpp kurulumunu gerçekleştirecekseniz, ZIP dosyasını ![buradan indirebilirsiniz.](https://github.com/ggml-org/llama.cpp/releases)İndirdiğiniz dosyayı ayıkladıktan sonra kurulumun diğer adımlarını takip edebilirsiniz.
 
 Not: Modeli manuel olarak indirip kurmanıza gerek yoktur. llama.cpp, sunucuyu ilk kez çalıştırdığınızda modeli otomatik olarak kuracaktır.
 
