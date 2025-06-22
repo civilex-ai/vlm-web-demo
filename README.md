@@ -42,7 +42,7 @@ Not: Modeli manuel olarak indirip kurmanıza gerek yoktur. llama.cpp, sunucuyu i
     llama-server.exe -hf ggml-org/SmolVLM-500M-Instruct-GGUF -ngl 99
     ```
 
-    SmolVLM dışında farklı modellerle de çalışabilirsiniz. ggml-org/SmolVLM-500M-Instruct-GGUF ifadesini istediğiniz başka bir GGUF modelinin yolu ile değiştirerek farklı modelleri de deneyebilirsiniz. ![Diğer modellere buradan ulaşabilirsiniz.](https://github.com/ggml-org/llama.cpp/blob/master/docs/multimodal.md)
+    SmolVLM dışında farklı modellerle de çalışabilirsiniz. ggml-org/SmolVLM-500M-Instruct-GGUF ifadesini istediğiniz başka bir GGUF modelinin yolu ile değiştirerek farklı modelleri de deneyebilirsiniz. [Diğer modellere buradan ulaşabilirsiniz.](https://github.com/ggml-org/llama.cpp/blob/master/docs/multimodal.md)
 
 - Web Arayüzünü Açın:
 
